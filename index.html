@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Intro Popup</title>
+</head>
+<body>
+  <div id="viz-root">
+    <!-- Overlay (popup) -->
+    <div id="overlay" aria-modal="true" role="dialog">
+      <div class="modal">
+        <h2>Important information</h2>
+        <p>
+          Data is Android-only for now. iOS consent rollout is in progress.
+          Data may arrive with a ~2-day delay; the default filter might not
+          show the freshest results. On Web, only JS errors are available,
+          not native crash logs.
+        </p>
+        <button id="closeBtn" type="button">Got it</button>
+      </div>
+    </div>
+
+    <!-- Optional: a small info badge that can reopen the modal -->
+    <button id="infoBadge" type="button" title="Show info">ℹ️</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
