@@ -1,0 +1,15 @@
+{
+  "name": "Intro Popup",
+  "organization": "Twoja Firma",
+  "description": "Dismissible intro popup for Looker Studio.",
+  "logoUrl": "https://example.com/logo.png",
+  "supportUrl": "https://example.com",
+  "privacyPolicyUrl": "https://example.com/privacy",
+  "components": [
+    {
+      "name": "intro_popup",
+      "type": "visualization",
+      "entryPoint": "index.html"
+    }
+  ]
+}
